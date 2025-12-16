@@ -1,12 +1,14 @@
-.tableau-wrap {
-  margin: 20px 0;
-  padding: 16px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.85);
+.photo {
+  width: 250px;        /* controls size */
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;   /* centers the image */
+  border-radius: 8px; /* optional, looks cleaner */
 }
 
-.tableau-placeholder {
-  padding: 18px;
-  border: 2px dashed #666;
-  border-radius: 10px;
+.caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
 }
